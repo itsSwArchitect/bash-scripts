@@ -22,4 +22,4 @@ This script ensures a clean setup, handles old package cleanup, adds official Do
 ### One-liner (Recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/itsSwArchitect/docker-installer/main/install-docker.sh | bash
+curl -fsSL https://raw.githubusercontent.com/itsSwArchitect/bash-scripts/refs/heads/main/docker-installer/install-docker.sh | bash
