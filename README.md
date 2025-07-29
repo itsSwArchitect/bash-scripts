@@ -2,17 +2,48 @@
 
 This repository contains a growing collection of Bash scripts designed to automate common tasks for DevOps, system administration, and software development workflows.
 
-Each script or script group is stored in its own folder, with detailed instructions and usage examples provided in the respective `README.md` files.
+Each script or script group is organized into its own folder. Detailed usage instructions are provided in each folder's `README.md`.
 
 ---
 
 ## 📂 Available Scripts
 
 ### [docker-installer](./docker-installer/README.md)
-Install Docker and Docker Compose on supported Linux distributions.  
-Useful for setting up container environments quickly.
+Install Docker and Docker Compose on supported Linux distributions.
 
 ➡️ See: [docker-installer/README.md](./docker-installer/README.md)
+
+---
+
+## How to Use
+
+### Method 1: Clone the Repository
+
+```bash
+git clone https://github.com/itsSwArchitect/bash-scripts.git
+cd bash-scripts
+cd folder-name  # Replace with the actual script folder
+chmod +x your-script.sh
+./your-script.sh
+```
+
+### Method 2: Run Directly from GitHub (one-liner)
+
+You can run most scripts directly from GitHub without cloning:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/itsSwArchitect/bash-scripts/main/<folder-name>/<script-name>.sh | bash
+```
+
+Replace `<folder-name>` and `<script-name>.sh` with the desired script path.
+
+**Example:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/itsSwArchitect/bash-scripts/main/docker-installer/install-docker.sh | bash
+```
+
+> ⚠️ Use this method only for trusted scripts. Always review code before piping to `bash`.
 
 ---
 
@@ -21,59 +52,37 @@ Useful for setting up container environments quickly.
 ```
 bash-scripts/
 │
-├── docker-installer/        # Scripts to install Docker and Docker Compose
-│   └── README.md            # Instructions for Docker installer
+├── docker-installer/        # Docker and Docker Compose installer
+│   └── install-docker.sh    # The script
+│   └── README.md            # Instructions
 │
-└── README.md                # Main overview of the repository
+├── another-script/          # More scripts coming soon
+│
+└── README.md                # This file
 ```
-
----
-
-## How to Use
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/itsSwArchitect/bash-scripts.git
-   cd bash-scripts
-   ```
-
-2. **Navigate to the desired script folder:**
-   ```bash
-   cd docker-installer
-   ```
-
-3. **Follow the instructions in the folder's `README.md`.**
-
-4. **Make scripts executable and run:**
-   ```bash
-   chmod +x install-docker.sh
-   ./install-docker.sh
-   ```
 
 ---
 
 ## ➕ Adding New Scripts
 
-To contribute or expand this repo:
-
-1. Create a new folder under the root (e.g., `nginx-setup`).
+1. Create a new folder under the root (e.g., `nginx-setup/`).
 2. Add your Bash script(s) inside.
-3. Write a `README.md` inside that folder with:
+3. Include a `README.md` in that folder with:
    - Purpose
    - OS support (if needed)
-   - Usage examples
-4. Update this root `README.md` to link to the new folder.
+   - Usage instructions
+4. Update this root `README.md` under **Available Scripts**.
 
 ---
 
 ## License
 
 This repository is open-sourced under the [MIT License](LICENSE).  
-Feel free to use and modify the scripts in your own projects.
+You are free to use, share, and modify these scripts.
 
 ---
 
 ## 🙋‍♂️ Author
 
 **Abid Ali** — [@itsSwArchitect](https://github.com/itsSwArchitect)  
-DevOps Engineer | Bash Automation Enthusiast
+Developer | DevOps Engineer | ML Researcher
