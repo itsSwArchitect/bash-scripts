@@ -13,6 +13,10 @@ Install Docker and Docker Compose on supported Linux distributions.
 
 ➡️ See: [docker-installer/README.md](./docker-installer/README.md)
 
+### [common-packages](./common-packages/README.md)
+
+➡️ See: [common-packages/README.md](./common-packages/README.md)
+
 ---
 
 ## How to Use
