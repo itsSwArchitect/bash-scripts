@@ -17,6 +17,10 @@ Install Docker and Docker Compose on supported Linux distributions.
 
 ➡️ See: [common-packages/README.md](./common-packages/README.md)
 
+### [system-init](./system-init/README.md)
+
+➡️ See: [system-init/README.md](./system-init/README.md)
+
 ---
 
 ## How to Use
