@@ -33,5 +33,4 @@ This script allows you to quickly configure hostname, timezone, locale, and APT 
 ### One-liner (recommended)
 
 ```bash
-curl -fsSL https://yourdomain.com/system-init.sh | bash
-
+curl -fsSL https://raw.githubusercontent.com/itsSwArchitect/bash-scripts/refs/heads/main/system-init/system-init.sh | bash
