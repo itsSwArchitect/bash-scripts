@@ -1,5 +1,17 @@
 #!/bin/bash
 
+
+###############################################################################
+# Script Name : system-init.sh
+# Description : A automated script to install Docker on Ubuntu
+# Author      : Abid Ali
+# Website     : https://abidali.site
+# License     : MIT
+# Usage       : https://raw.githubusercontent.com/itsSwArchitect/bash-scripts/refs/heads/main/system-init/system-init.sh | bash
+###############################################################################
+
+
+
 # Colors
 RED='\033[0;31m'
 GREEN='\033[0;32m'
