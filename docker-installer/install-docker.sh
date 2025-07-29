@@ -6,7 +6,7 @@
 # Author      : Abid Ali
 # Website     : https://abidali.site
 # License     : MIT
-# Usage       : https://raw.githubusercontent.com/itsSwArchitect/docker-installer/refs/heads/main/install-docker.sh | bash
+# Usage       : https://raw.githubusercontent.com/itsSwArchitect/bash-scripts/refs/heads/main/docker-installer/install-docker.sh | bash
 ###############################################################################
 
 set -euo pipefail
